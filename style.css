@@ -1,0 +1,104 @@
+/* leftside style */
+header {
+    background: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1200px; */
+    height: 100px;
+    cursor: pointer;
+}
+
+.left {
+    display: flex;
+    margin-left: 5rem;
+    align-items: center;
+
+}
+
+.logo {
+    object-fit: contain;
+    width: 5rem;
+    height: 3rem;
+}
+
+.border {
+    border: solid 1px rgb(219, 218, 218);
+    height: 1.25rem;
+    margin-left: 3rem;
+}
+
+.left_section {
+    display: flex;
+    margin-left: 1rem;
+    list-style: none;
+}
+
+.left_section li a {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+
+.left_section li a span {
+    font-size: .9rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+
+/* righside style */
+
+
+.righside .main_section {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
+    align-items: center;
+    list-style: none;
+
+
+}
+
+.righside .main_section li a {
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    gap: 0.9rem;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.righside .main_section li a img {
+    object-fit: contain;
+    height: 22px;
+    width: 22px;
+}
+
+.righside .main_section li a span {
+    font-size: .9rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.righside .main_section li a span:hover {
+    color: blue;
+}
+
+/* navbar ended */
